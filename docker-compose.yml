@@ -12,7 +12,7 @@ services:
         - nginxphp
 
     php:
-      image: php 
+      image: php:7.4-fpm
       volumes:
         - ./public_html:/public_html
       expose:
