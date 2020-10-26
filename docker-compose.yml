@@ -5,7 +5,7 @@ services:
       ports:
         - 80:80
       volumes:
-      - ./public_html:/public_html
+      - ./public_html:/app
       - ./conf.d:/etc/nginx/conf.d
 
       networks:
